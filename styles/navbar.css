@@ -1,0 +1,98 @@
+nav{
+    background-color: black;
+    color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: auto;
+    z-index:10001; 
+}
+.nv-main {
+    width: 85%;
+    margin: 0px auto;
+     opacity: 0.8;
+}
+
+.nv-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   align-items: center;
+
+}
+
+
+li{
+    cursor: pointer;
+    -webkit-transition: width 1.2s, height 1.4s, background-color 1.4s, -webkit-transform 1.4s;
+    transition: width 1.4s, height 1.4s, background-color 1.4s, transform 1.4s;
+}
+
+li>a{
+    color:#fff;
+    
+}
+
+.nv-bt-hr{
+    background-color: white;
+	height: 1px;
+	box-shadow: 0 20px 20px -20px #333;
+	width: 100%;
+    margin: 0 auto;
+    opacity: 0.2;
+    -webkit-transition: width 1.4s, height 1.4s, background-color 1.4s,opacity 1.4s, -webkit-transform 1.4s;
+    transition: width 1.4s, height 1.4s, background-color 1.4s,opacity 1.4s, transform 1.4s;
+}
+.nv-bott{
+    height: 100%
+}
+.nv-bt-ul{
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    padding: 1% 0;
+    list-style-type: none;
+    height: 100%;
+}
+
+.nv-bt-ul li{
+    margin: auto
+}
+.nv-up div:first-child{
+    text-align: start;
+    opacity: 0.4
+}
+.nv-up div:last-child{
+    text-align: end;
+     opacity: 0.4
+}
+.nv-up div{
+   width: 30%;
+    text-align: center;
+}
+.nv-up .item1 >a{
+    margin: 1.5%;
+    color: #fff
+}
+.nv-up .item3 >a{
+    margin: 1.5%;
+    color: #fff
+}
+
+nav li:hover{
+    -moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+}
+
+.nv-main:hover .nv-bt-hr{
+    opacity: 1;
+}
+
+.nv-main:hover li{
+    opacity: 1;
+}

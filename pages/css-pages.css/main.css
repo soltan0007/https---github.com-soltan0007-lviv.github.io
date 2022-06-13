@@ -1,0 +1,21 @@
+main{
+    background: url(https://hotel-edem.lviv.ua/wp-content/uploads/2018/09/golovna-1.jpg) no-repeat chocolate center center fixed;
+    background-size: cover;
+ 
+   
+}
+
+table{
+    padding: 7% 2% 5% 2%;
+    margin: 0px auto;
+}
+
+#table1 {width: 90%}
+#table2{width: 100%; border-radius: 2px;}
+#h11{color: white;font-size:24px;margin: 3% 0 0 0}
+#table3{width: 100%; border-radius: 2px; color: white;margin: 0;padding: 0 2% 5% 2%}
+#td1{width:50%}
+
+main p{text-indent:20px;letter-spacing: 1px;line-height: 40px;font-size: 20px;opacity: 0.6}
+
+#img1{height:400px}
